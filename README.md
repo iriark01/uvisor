@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ARMmbed/uvisor.svg?branch=master)](https://travis-ci.org/ARMmbed/uvisor)
 
-<span class="warnings">**Warning**: uVisor is superseded by the Secure Partition Manager (SPM) defined in the ARM Platform Security Architecture (PSA). uVisor is deprecated as of Mbed OS 5.9, and being replaced by a native PSA-compliant implementation of SPM.</span>
+<span class="warnings">**Warning**: uVisor is superseded by the Secure Partition Manager (SPM) defined in the ARM Platform Security Architecture (PSA). uVisor is deprecated as of Mbed OS 5.10, and being replaced by a native PSA-compliant implementation of SPM.</span>
 
 The uVisor is a self-contained software hypervisor that creates independent secure domains on Arm Cortex&reg;-M3 and Cortex&reg;-M4 microcontrollers. It increases resilience against malware and protects secrets from leaking even among different modules of the same application. You can find a [high-level overview here](http://www.slideshare.net/FoolsDelight/practical-realtime-operating-system-security-for-the-masses) ([Download PDF](https://github.com/ARMmbed/uvisor/raw/docs/uVisorSecurity-TechCon2016.pdf)).
 
